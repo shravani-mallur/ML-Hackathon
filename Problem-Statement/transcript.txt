@@ -1,0 +1,20 @@
+0:00
+Imagine a vehicle traveling through a city, recording its location using GPS.
+0:05
+As the vehicle moves, GPS devices capture a sequence of geographical
+0:10
+coordinates forming a trajectory. However, GPS signals are not always
+0:16
+accurate. Buildings, signal interference, and measurement errors can
+0:20
+cause recorded locations to drift away from the actual roads. This creates a
+0:25
+challenge. How do we determine which roads the vehicle actually traveled on?
+0:30
+This is the problem of map matching. The objective is to use the observed GPS
+0:36
+trajectory and the underlying road network to identify the most likely
+0:41
+sequence of roads traveled, reconstructing a meaningful route from
+0:45
+noisy location data. This is path snap.
