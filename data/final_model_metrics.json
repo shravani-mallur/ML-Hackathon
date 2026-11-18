@@ -1,0 +1,16 @@
+{
+  "model": "HistGradientBoosting (tuned)",
+  "params": {
+    "learning_rate": 0.09498428054161334,
+    "max_iter": 450,
+    "max_leaf_nodes": 39,
+    "min_samples_leaf": 210,
+    "l2_regularization": 4.397970184941278,
+    "max_bins": 255
+  },
+  "fit_rows": 998529,
+  "fit_seconds": 18.212164640426636,
+  "infer_ms_per_1000_rows": 4.3905522373492865,
+  "test_logloss": 0.04931034893147805,
+  "test_macro_f1_at_0_5": 0.935571915981154
+}

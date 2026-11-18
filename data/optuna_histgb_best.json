@@ -1,0 +1,29 @@
+{
+  "best_params": {
+    "learning_rate": 0.09498428054161334,
+    "max_iter": 450,
+    "max_leaf_nodes": 39,
+    "min_samples_leaf": 210,
+    "l2_regularization": 4.397970184941278,
+    "max_bins": 255
+  },
+  "best_cv_top1": 0.8912947135868976,
+  "n_trials": 41,
+  "search_seconds": 1695.8,
+  "sampler": "TPE",
+  "seed": 42,
+  "n_fit_rows": 300000,
+  "n_folds": 4,
+  "space": {
+    "learning_rate": "log 0.02-0.3",
+    "max_iter": "100-500 step 50",
+    "max_leaf_nodes": "log int 8-127",
+    "min_samples_leaf": "log int 10-300",
+    "l2_regularization": "log 1e-3-10",
+    "max_bins": [
+      63,
+      127,
+      255
+    ]
+  }
+}

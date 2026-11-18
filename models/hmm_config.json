@@ -1,0 +1,26 @@
+{
+  "params": {
+    "w_emis": 0.374117481830621,
+    "beta": 2.9377157902512447,
+    "disc_pen": 38.661495923171195,
+    "uturn_pen": 7.812391871788128,
+    "back_pen": 0.6028845269990829,
+    "gap_m": 300.0
+  },
+  "defaults": {
+    "w_emis": 1.0,
+    "beta": 10.0,
+    "disc_pen": 12.0,
+    "uturn_pen": 4.0,
+    "back_pen": 2.0,
+    "gap_m": 1000.0
+  },
+  "objective": "pooled train OOF Top-1",
+  "best_train_top1": 0.9410236822001528,
+  "n_trials": 30,
+  "search_seconds": 109.2,
+  "sampler": "TPE",
+  "seed": 42,
+  "back_tol_m": 10.0,
+  "max_limit_m": 4000.0
+}
